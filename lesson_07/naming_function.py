@@ -121,3 +121,11 @@ print(type(x), x)
 q, w, e = 1, 2, 3
 x1, y1, z1 = func3(4, 6 ,8)
 print(x1, y1, z1)
+
+
+def func4(**kwargs):
+    print(type(kwargs), kwargs)
+
+
+lst = [1, 2, 3, 4]
+func4(Colorado='Rockies', Minnesota=123, Milwaukee=2343.456, Seattle=lst)
